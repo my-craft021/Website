@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #F5FAFF;
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+ 
+  
+    nav{
+        width: 100%;
+        height: 2rem;
+        border: 1px solid;
+        border-top: none;
+        border-left: none;
+        border-right: none;
+        border-bottom-width: 2px;
+        border-bottom-color: gray;
+        height: 2rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 3.5rem;
+
+  
+
+        .navbar {
+            width: 80%;
+            display: flex;
+            justify-content: space-between;
+           
+         
+
+            ul{
+                display: flex;
+
+                li{
+                    padding-top: .5rem;
+                    list-style: none;
+                    margin-left: 3rem;
+
+                    &:nth-of-type(1){
+                        font-weight: bolder;
+                        color: #093FFF;
+                    }
+                    &:nth-of-type(4){
+                        background-color: black;
+                        color: #fff;
+                        padding: .5rem 1.5rem;
+                    }
+                }
+            }
+        }
+    }
+
+    main{
+        width: 80%;
+        display: flex;
+        justify-content: space-between;
+
+        .title {
+            margin-top: 6rem;
+            display: flex;
+            flex-direction: column;
+            h1{
+             font-size: 3.5rem;
+             font-weight: bolder;
+
+             &::before{
+                 content: '';
+                 background-color: #C5C5C5;
+                 display: block;
+                 height: 1.2rem;
+                 width: 10rem;
+                 border-radius: 3rem;
+             }
+            }
+            h3{
+                color: #093FFF;
+            }
+
+            .buttons{
+                margin-top: 3.5rem;
+                display: flex;
+                align-items: center;
+
+                h4{
+                    background-color: black;
+                    color: #fff;
+                    padding: .5rem 1.5rem;
+                }
+                h3{
+                    margin-left: 3rem;
+                    color: #4B4B4B;
+                    text-decoration: underline;
+                    text-decoration-thickness: 3.5px;
+                }
+            }
+        }
+
+        .illustration{
+            margin-top: 6rem;
+
+        }
+    }
+
+}
+
+.bottom-svg{
+    position: absolute;
+width: 92px;
+height: 111px;
+left: 0px;
+top: 480px;
+}
+.top-svg{
+    position: absolute;
+width: 89px;
+height: 106px;
+right: 0;
+top: 90px;
+}
